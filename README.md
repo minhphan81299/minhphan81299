@@ -1,1 +1,1 @@
-# Configuration file for tool
+# Configuration file
