@@ -1,10 +1,9 @@
 #!/bin/bash
 
-# easy install
-# curl -sSLf https://config.anhdv.dev/install.sh | bash
+
 
 # clone repo
-git clone https://github.com/vietanhduong/vietanhduong.git vietanhduong && cd $_
+git@github.com:minhphan81299/tool-config.git
 
 # exit if clone repo failed
 [[ "$?" != "0" ]] && exit 1
@@ -54,14 +53,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # download iterm shell integration
 curl -L https://iterm2.com/shell_integration/zsh -o ~/.iterm2_shell_integration.zsh
 
-# git config
-git config --global user.email "vietanhs0817@gmail.com"
-git config --global user.name "Viet Anh Duong"
-git config --global commit.gpgsign true
-git config --global gpg.program gpg
 
-# git config --global user.signingkey <place your key>
-
-# disable press and hold on mac os
-defaults write -g ApplePressAndHoldEnabled -bool false
 
