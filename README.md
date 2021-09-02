@@ -7,5 +7,5 @@
 * Install my configuration of several tools that i use
   * **Step :** install configuration
   ``` bash
-  wget -O - https://raw.githubusercontent.com/minhphan81299/tool-config/main/install.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/minhphan81299/tool-config/main/install.sh | bash
   ```  
