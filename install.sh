@@ -10,7 +10,7 @@ git clone git@github.com:minhphan81299/minhphan81299.git
 
 # make sure brew already installed
 if ! command -v "brew" &> /dev/null; then
-  echo "brew does not install, please install brew first!" >&2
+  echo "brew does not install, please install brew first! If you don't use MacOS, please comment these commands to skip it :))" >&2
   exit 1
 fi
 
