@@ -3,7 +3,7 @@
 
 
 # clone repo
-git clone git@github.com:minhphan81299/tool-config.git
+git clone git@github.com:minhphan81299/minhphan81299.git
 
 # exit if clone repo failed
 [[ "$?" != "0" ]] && exit 1
